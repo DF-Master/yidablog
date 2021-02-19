@@ -12,6 +12,7 @@ author: Yida Jiang
 language: zh-CN
 timezone: Asia/Shanghai
 
+# test
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://yidajiang.top
