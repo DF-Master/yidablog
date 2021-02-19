@@ -6,8 +6,6 @@ tags:
 - FVTT
 - 服务器
 categories:
-- 技术笔记
-- TRPG
 - 服务器
 ---
 
