@@ -109,7 +109,7 @@ search:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/DF-Master/DF-Master.github.io.git
+  repo: git@github.com:DF-Master/DF-Master.github.io.git
   branch: gh-pages
 
 
@@ -182,3 +182,5 @@ html_prettify:
         comma_first: false
         e4x: false
         indent_empty_lines: false
+
+
