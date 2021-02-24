@@ -3,6 +3,7 @@
 
 title: About Me
 date: 2021-02-15
+updated: 2021-02-24
 tags: ['about me']
 id: about
 no_word_count: true
@@ -21,17 +22,17 @@ no_toc: true
 
 
 
-姓名： 江意达
+Name： Yida Jiang
 
-现居： 北京
+Address： Peking University, Yiheyuan Road 5th, Beijing, China
 
 Github：[DF-Master](https://github.com/DF-Master)
 
-wechat: [jiang_yida](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
+Wechat: [jiang_yida](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
 
-qq: [476540183](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
+QQ: [476540183](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
 
-mail: jiangyida@pku.edu.cn
+E-mail: jiangyida@pku.edu.cn
 
 <!-- more -->
 
