@@ -1,6 +1,4 @@
-
 ---
-
 title: About Me
 date: 2021-02-15
 updated: 2021-02-24
@@ -8,7 +6,6 @@ tags: ['about me']
 id: about
 no_word_count: true
 no_toc: true
-
 ---
 
 
