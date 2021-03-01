@@ -85,7 +85,7 @@ categories:
 
 ![image-20210218164534214](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164534.png)
 
-```
+```shell
 ssh <username>@<hostname or IP address>
 ```
 
@@ -94,7 +94,7 @@ ssh <username>@<hostname or IP address>
 
 ## 2. 搭建服务器
 
-```
+```shell
 sudo su root
 ```
 
@@ -102,7 +102,7 @@ sudo su root
 
 
 
-```undefined
+```shell
 sudo apt -y install zsh git
 ```
 
@@ -110,7 +110,7 @@ sudo apt -y install zsh git
 
 
 
-```php
+```shell
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 ```
 
@@ -118,14 +118,14 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 
 
 
-```ruby
+```shell
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 ZSH_THEME="ys"
 ```
 
 复制 .zshrc，修改命令提示符样式
 
-```undefined
+```shell
 chsh -s /bin/zsh
 ```
 
@@ -133,7 +133,7 @@ chsh -s /bin/zsh
 
 
 
-```
+```shell
 git clone --depth=1 https://gitee.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 # 找到的链接1
 
@@ -151,7 +151,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 
 我的设置如下：
 
-```
+```shell
 # export MANPATH="/usr/local/man:$MANPATH"
 #
 # # You may need to manually set your language environment
@@ -199,14 +199,14 @@ https://blog.csdn.net/LoveDou0816/article/details/79886433
 
 安装npm,用npm安装fvtt运行所需的forever:
 
-```
+```shell
 apt-get install npm
 npm install forever -g
 ```
 
 安装解压缩软件，解压缩FVTT：
 
-```
+```shell
  apt-get install unzip
  apt-get install install p7zip-full
  unzip foundryvtt.zip -d $HOME/foundryvtt
@@ -214,7 +214,7 @@ npm install forever -g
 
 然后根据fvtt官网操作：
 
-```
+```shell
 	sudo apt install -y libssl-dev
 	curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 	sudo apt install -y nodejs
@@ -241,7 +241,7 @@ npm install forever -g
 
 
 
-```
+```shell
 forever start -a  /root/foundryvtt/resources/app/main.js --dataPath=/root/foundrydata
 ```
 
