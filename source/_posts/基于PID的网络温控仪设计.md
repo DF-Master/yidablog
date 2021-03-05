@@ -16,7 +16,7 @@ mathjax: true
 
 > 没有无线电，世界是聋的。——尔奈斯特 雅伯
 
-在正式开始前，我想先请各位扫描一下二维码：
+在正式<span id='开头'>开始</span>前，我想先请各位扫描一下二维码：
 
 ![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305021006.png)![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305020959.png)
 
@@ -185,7 +185,7 @@ ${\displaystyle D_{\mathrm {out} }=K_{d}{\frac {d}{dt}}e(t)}D_{\mathrm  {out}}=K
 
 那么，PID真的那么有效吗？我用寝室中的玻璃杯中的一杯麦片进行了一个小实验，结果如下：
 
-![image-20210305011329003](https://gitee.com/DF-Master/yidapicbed/raw/master/image-20210305011329003.png)
+![image-20210305120617654](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305120617.png)
 
 <center><font color="gray">↑ 数据很丑，图也很丑，我也很丑，但我不想熬夜画图了，我想睡觉，睡觉才能让我不丑
     </p></font></center>
@@ -194,13 +194,106 @@ ${\displaystyle D_{\mathrm {out} }=K_{d}{\frac {d}{dt}}e(t)}D_{\mathrm  {out}}=K
 
 不过，在实际使用时，P = 0， I =500，D = 100的设置已经能让样品池温度控制在$\pm 0.1 °C$了，这主要还是因为寝室里面干扰较大，而样品池在实验室的隔热模具内干扰较小。
 
-### 温控器v2.0 
+## 温控器v2.0 
 
-睡了睡了，明天再写。
+在温控器v2.0中，我实现的功能主要有：
+
+- 使用具有PID控制功能的KCMR-6温控装置替换了先前的简单温控元件，并且接入固体继电器以控制输出
+- 采用导轨式部件，装置模块化、一体化程度提高
+- 将线路并入总闸开关控制
+
+在实际实验中，温控器v2.0已经能满足基本的实验需要。
+
+![微信图片_20210305110829](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305110842.jpg)
+
+<center><font color="gray">↑ 图很丑，需要重新拍摄
+    </p></font></center>
+
+## 温控仪v3.0
+
+但是，温控器v2.0仍然和大多数仪器一样，只在仪器上进行手动操作，不能做到信息的远程监控与发布。但在物联网的时代，将终端设备纳入网络进行远程管理已经成为了一道时代浪潮 ！！此处应有文献。所以，我希望能将我的温控仪接入网络并进行远程管理与监控。
+
+### Step 1: 为设备添加通信功能
+
+经过再次与[余姚精创仪表有限公司](http://www.tempinst.com/index.asp)联系，我购得了一台具有RS485通信功能的温控装置KCMR-9。在通过USB-RS485实现主机-温控仪通信后，我配置了[泽耀科技](http://www.ashining.com/)的无线数传电台AS62-DTU30来实现远程通信。
+
+该装置最远可以实现8公里内的数据传输。我实际测试时，信号可以实现相隔两层楼、在六个以上房间的阻碍下无丢包、低延迟传输。
+
+![image-20210305112550003](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305112550.png)
+
+<center><font color="gray">↑ 有空的话连拍个实物图
+    </p></font></center>
+
+### Step 2: 用Force Control 7.0管理串口
+
+Force Control 7.0 是一款完全集成的工业控制软件产品，通过提供可靠、灵活、高性能的监控系统平台,以及简单易用的配置工具和强大的功能来对各种规模的应用进行快速开发与部署。因为内部高度集成的模块和可视化部件，可以轻松完成信号的读取与写入。
+
+该程序实现的功能有：
+
+- 仪表结构可视化
+- 实时温度、设定温度可视化
+- 可视化改变温度设置
+
+![QQ图片20210305113848](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305113909.jpg)
+
+<center><font color="gray">↑ 理应是一个视频
+    </p></font></center>
+
+但是，虽然Force Control 7.0易于上手、无需太多编程基础，但其高度模块化的特点也限制了它的功能扩展。
+
+### Step 3: 用Python管理串口
+
+为了进一步扩展程序的自由度，我用Python编写了一个串口信号管理程序，并且制作了多平台可用的UI界面。
+
+该程序实现的功能有：
+
+- 实时温度监测
+- 实时更新、调试设定温度
+- PID参数监测、更新
+- 进行了版本管理，随时查看[源码](https://github.com/DF-Master/projects-of-yida/blob/main/temp-control/temp-control.py)
+
+![image-20210305114305041](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305114305.png)
+
+<center><font color="gray">↑ 理应是一个视频
+    </p></font></center>
+
+该程序仍然具有相当大的扩展空间，如有需要，还可以和KCMR-9互动，添加温度报警、线性调温等功能。为改善实验体验，我首先为其添加了实时信号网络同步功能。
+
+### Step 4: 用Python更新网页
+
+一般来说，制作网页需要javescript、html等网络知识，但得益于2018年开始的[Streamlit](https://streamlit.io/)项目，现在用Python就能直接发布网页，在[开头](#开头)看到的网页就是用Python制作的。如果说从仪器调参到主机调参是PID温控仪连入网络的一小步，那将结果优美地发表于内网并转发至外网就是迈入物联网的一大步。
+
+出于安全考虑，我没有给网页设置在线调参功能。不过，目前已实现的功能有：
+
+- 实时数据更新
+- 优雅地在线作图
+- 近期数据可查
+
+![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305021006.png)![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305020959.png)
+
+<center><font color="gray">↑ 如果你还想查看，可以扫描二维码。</font></center>
+
+## 实验效果
+
+在实际实验中，P = 0，I = 500 ，D = 100下可以做到$\pm0.1^oC$的精准控温，熔融后，1360、1564 cm<sup>-1</sup>处的特征峰变化显著增强。
+
+![image-20210305121824227](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305121824.png)
+
+<center><font color="gray">↑ 这张图需要重置。左图是溶液样品，右图是熔融样品。</font></center>
 
 
 
+### 总结与展望
 
+综上所述，我从零开始，为FTIR熔融样品测试实验制作了一个工作范围宽、控温稳定、价格低廉、高度模块化、具有联网功能的PID网络温控仪。其中，数据的远程通信、加热元件模块化、成本低、可联网监控数据是多数市场产品所不具备的功能。除此以外，未来我还可以为其添加温度报警、网络互动、数据分析、梯度升温、自动化实验等功能，具有相当大的发展潜质。
+
+此外，目前实验室中的许多仪器，也可以直接用该模块化部件进行改造，例如A301中的DZF-6020-HT 400 °C真空烘箱，就具有RS232接口，可以进行远程通信实现查看使用情况、实时数据检测、远程控温、实验完成提示等功能。
+
+![image-20210305123212922](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305123213.png)
+
+<center><font color="gray">↑ DZF-6020-HT 400 °C真空烘箱</font></center>
+
+未来，针对二维红外光谱，我也可以制作一套相应的模具来进行温度控制，并可为其设计蠕动泵自动化进样控制系统。整个装置的结构也还有很大的优化空间，制作成具有盒式包装的产品也并非难事。
 
 # 引文
 
@@ -219,3 +312,9 @@ ${\displaystyle D_{\mathrm {out} }=K_{d}{\frac {d}{dt}}e(t)}D_{\mathrm  {out}}=K
 <span id='我的工具'>因为我技术水平比较低，以下的工具基本都是基于windows10的。</span>
 
 此处应有10086个工具，但我摸了。之后更新。
+
+
+
+## 代码
+
+此处应有一些需要说明的代码。
