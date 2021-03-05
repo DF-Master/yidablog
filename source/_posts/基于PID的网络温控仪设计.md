@@ -5,6 +5,7 @@ categories:
 - 技术
 tags:
 - 技术
+mathjax: true
 ---
 
 
@@ -17,9 +18,9 @@ tags:
 
 在正式开始前，我想先请各位扫描一下二维码：
 
-![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](C:%5CUsers%5Cjiang%5COneDrive%5C%E7%A7%91%E7%A0%94%5CCI%5CPID%5C%E6%8A%A5%E5%91%8A%E8%B5%84%E6%96%99%5C25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3.png)![27_748_8b1d2fc5884855ea3ab7dd15c9809818_f3cd201468bdbb9bf1e746cbf916d3af](C:%5CUsers%5Cjiang%5COneDrive%5C%E7%A7%91%E7%A0%94%5CCI%5CPID%5C%E6%8A%A5%E5%91%8A%E8%B5%84%E6%96%99%5C27_748_8b1d2fc5884855ea3ab7dd15c9809818_f3cd201468bdbb9bf1e746cbf916d3af.png)
+![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305021006.png)![25_734_186d36a414a8404516274f852a77bc7f_203b3b133ed0debbfbb9a88a90c55ed3](https://gitee.com/DF-Master/yidapicbed/raw/master/20210305020959.png)
 
-<center><font color="gray">↑ <p>左边的是公网链接，右边的是内网链接，右侧更快,需要连接内网。</p>
+<center><font color="gray">↑ <p>前者是公网链接，后者的是内网链接，后者更快,需要连接内网（北大校园网）。</p>
     数据无更新可能是出于安全考虑关闭了加热装置。</font></center>
 
 如果你不方便连接[外网](http://379w07117o.qicp.vip/)或[内网](http://10.128.190.4:8501/)网址，我这里也准备了几张截图：
@@ -138,6 +139,7 @@ PID（**P**roportional **I**ntegral **D**erivative）是什么？约翰·美斯�
 
 那么，PID究竟是如何实现的过程呢？若要探求其具体原理，需要涉及到数学物理方法的内容，下面我只简要介绍其应用时涉及到的主要参数：
 
+${\mathrm  {u}}(t)={\mathrm  {MV}}(t)=K_{p}{e(t)}+K_{i}\int _{0}^{t}{e(\tau )}\,{d\tau }+K_{d}{\frac  {d}{dt}}e(t)$
 
 
 其中：
@@ -155,7 +157,7 @@ ${\displaystyle \tau }$：积分变数，数值从0到目前时间$${\displaysty
 
 比例控制的输出如下：
 
-
+$P_{\mathrm  {out}}=K_{p}\,{e(t)}$
 
 若比例增益大，在相同误差量下，会有较大的输出，但若比例增益太大，会使系统不稳定。相反的，若比例增益小，若在相同误差量下，其输出较小，因此控制器会较不敏感的。若比例增益太小，当有干扰出现时，其控制信号可能不够大，无法修正干扰的影响。
 
@@ -165,7 +167,7 @@ ${\displaystyle \tau }$：积分变数，数值从0到目前时间$${\displaysty
 
 积分控制的输出如下：
 
-
+$I_{\mathrm  {out}}=K_{i}\int _{0}^{t}{e(\tau )}\,{d\tau }$
 
 积分控制会加速系统趋近设定值的过程，并且消除纯比例控制器会出现的稳态误差。积分增益越大，趋近设定值的速度越快，不过因为积分控制会累计过去所有的误差，可能会使回授值出现过冲的情形。
 
@@ -175,6 +177,7 @@ ${\displaystyle \tau }$：积分变数，数值从0到目前时间$${\displaysty
 
 微分控制的输出如下：
 
+${\displaystyle D_{\mathrm {out} }=K_{d}{\frac {d}{dt}}e(t)}D_{\mathrm  {out}}=K_{d}{\frac  {d}{dt}}e(t)$
 
 微分控制可以提升整定时间及系统稳定性。不过因为纯微分器不是因果系统，因此在PID系统实现时，一般会为微分控制加上一个低通滤波器以限制高频增益及噪声。实际上较少用到微分控制，估计PID控制器中只有约20 %有用到微分控制
 
