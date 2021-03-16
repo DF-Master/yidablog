@@ -185,7 +185,7 @@ $$
 
 是在完成了上述装置后，我将装置应用于Li金属有机配合物的信号增强上。
 
-首先，为预测2**A1 –** Li金属有机配合物可能的结构，用Gaussian16以M062x对其进行计算分析。**A1**及其配合物可能的结构如图**13**所示，其红外光谱特征峰计算结果如图**14**所示**。**二者均已乘校正系数。计算表明，若**A1**与Li形成了2**A1 –** Li金属有机配合物，应在1650 cm<sup>-1</sup>与1311 cm<sup>-1</sup>处表现出特征峰，并在1700 cm<sup>-1</sup>表现出显著的信号衰减。
+首先，为预测2**A1 –** Li金属有机配合物可能的结构，用Gaussian16以M062x对其进行计算分析。**A1**及其配合物可能的结构如图**13**所示，其红外光谱特征峰计算结果如图**14**所示。二者均已乘校正系数。计算表明，若**A1**与Li形成了2**A1 –** Li金属有机配合物，应在1650 cm<sup>-1</sup>与1311 cm<sup>-1</sup>处表现出特征峰，并在1700 cm<sup>-1</sup>表现出显著的信号衰减。
 
  ![image-20210310225136003](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225136.png)![image-20210310225203781](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225203.png)
 
@@ -254,3 +254,5 @@ $$
 9     <span name = "ref9"> Li, Y. a. A., K.H. and Chong, G.C.Y. . PID control system analysis and design - Problems, remedies, and future directions. . *IEEE Control Systems Magazine,* **26**, 32-41 (2006).</span>
 
 10  <span name = "ref10">Kiam Heong, A., Chong, G. & Yun, L. PID control system analysis, design, and technology. *IEEE Transactions on Control Systems Technology* **13**, 559-576, doi:10.1109/tcst.2005.847331 (2005)</span>
+
+
