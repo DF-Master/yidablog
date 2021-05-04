@@ -5,6 +5,7 @@ tags: ['about me']
 id: about
 no_word_count: true
 no_toc: true
+top: true
 
 ---
 
