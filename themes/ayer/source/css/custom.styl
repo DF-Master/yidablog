@@ -14,29 +14,10 @@ if hexo-config('mouse.enable')
 .content
     &.on
         margin-left 0 !important
-
-.article-entry 
-    line-height 175%
-    margin 2%
-.article-entry img
-    margin-top 3%
-    box-shadow:0 0 10px #333
-    border-radius: 1%
-
-.tocbot
-    opacity .85
-
-
-	
 .navbar-toggle
     left 1.5rem + $aside-width
 .search-form-wrap
     right $aside-width
-.share-outer
-    color #e5554e
-.share-outer i
-    color #e5554e
-
 
 @media(min-width: 768px)
     .outer, .wrap
@@ -44,21 +25,12 @@ if hexo-config('mouse.enable')
 @media(max-width: 768px)
     .tocbot
         display none !important
-    .content
+    .sidebar
+        left 0
         &.on
-            transform translateX($aside-width)
-body
-    font-family Roboto, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", sans-serif;
-
-blockquote
-    font-family Roboto, Helvetica, Tahoma, Arial, STHeiti, FANGSONG, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", sans-serif;
-
-
-
-a
-    color #e5554e
-    text-decoration none
-a:hover
-    color black
-    text-decoration underline dotted
-
+            left - $aside-width
+    .content
+        transform translateX($aside-width)
+        &.on
+            transform translateX(0)
+    

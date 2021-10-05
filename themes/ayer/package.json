@@ -1,11 +1,12 @@
 {
   "name": "hexo-theme-ayer",
-  "version": "1.8.13",
+  "version": "1.9.5",
   "description": "a clean and elegant theme for hexo.",
   "scripts": {
-    "dev": "parcel serve source-src/main.js -d source/dist",
-    "build": "rimraf source/dist && parcel build source-src/main.js -d source/dist --no-source-maps",
-    "postinstall": "node ./move_config.js"
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "postinstall": "node ./move_config.js",
+    "test": "stylint source-src/css/style.styl -c .stylintrc"
   },
   "source": "source-src/main.js",
   "repository": {
@@ -27,10 +28,9 @@
   "homepage": "https://shen-yu.gitee.io/",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-bundle-visualiser": "^1.2.0",
-    "postcss-modules": "^1.5.0"
-  },
-  "dependencies": {}
+    "rollup": "^2.50.2",
+    "rollup-plugin-styles": "^3.14.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "stylint": "^2.0.0"
+  }
 }

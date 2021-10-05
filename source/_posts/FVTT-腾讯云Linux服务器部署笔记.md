@@ -28,7 +28,7 @@ categories:
 
 最后干脆一步到位，把之后的vpn一起买了，价格如下：
 
-![image-20210218164119978](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164120.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164120.png)
 
 如果是轻量应用服务器，一年1u 2g 40G SSD 5M峰值带宽的价格应该是107。
 
@@ -36,7 +36,7 @@ categories:
 
 ### 修改密码
 
-![image-20210218164156539](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164156.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164156.png)
 
 
 ### 绑定域名
@@ -49,7 +49,7 @@ categories:
 
 给FVTT留好端口。（FVTT的默认端口是30000）
 
-![image-20210218164310026](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164310.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164310.png)
 
 顺带记录一下公网IP，之后要用。
 
@@ -61,7 +61,7 @@ categories:
 
 购买后进入我的域名，此时就有显示了
 
-![image-20210218164336199](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164336.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164336.png)
 
 需要实名认证，所以上传身份证等待认证。虽然写着需要3-5工作日，但实际上几分钟就完成了人工认证。
 
@@ -69,21 +69,21 @@ categories:
 
 随后解析——一键修改
 
-![image-20210218164401499](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164401.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164401.png)
 
 大概一段时间之后
 
-![image-20210218164437861](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164437.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164437.png)
 
 看到此时域名变成绿色。
 
-![image-20210218164459879](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164459.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164459.png)
 
 添加记录，记录值改成IP。
 
 此时域名已经绑定，我们已经可以用windows terminal 或者powershell来ssh远程控制服务器了。
 
-![image-20210218164534214](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164534.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164534.png)
 
 ```shell
 ssh <username>@<hostname or IP address>
@@ -158,7 +158,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 # # export LANG=en_US.UTF-8
 #
 # # Preferred editor for local and remote sessions
-# # if [[ -n $SSH_CONNECTION ]]; then
+# # if []; then
 # #   export EDITOR='vim'
 # # else
 # #   export EDITOR='mvim'
@@ -177,13 +177,13 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 # # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 # # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[] || source ~/.p10k.zsh
 alias ll="ls -lha"
 ```
 
 重启服务器，会弹出powerlevel10k的一堆问题，完成问题后配置更改成功，我的界面如下：
 
-![image-20210218164627013](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164627.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/markdown/20210218164627.png)
 
 
 

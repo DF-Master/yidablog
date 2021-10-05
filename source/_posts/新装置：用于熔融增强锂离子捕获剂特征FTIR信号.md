@@ -25,7 +25,7 @@ mathjax: true
 - 设计PID网络温控器，实现远程控制、网页管理
 - 在特定温度熔融**A1**,增强配合物FTIR信号，为二维红外实验做准备<sup><a href="#ref6">6</a></sup> 
 
-![image-20210304232934783](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310203347.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310203347.png)
 
 <center><font color="gray">图1 A1、B1外观与其结构示意图
     </p></font></center>
@@ -35,7 +35,7 @@ mathjax: true
 
 玻璃树脂纤维绝缘隔热模具的CAD设计图如图**2**所示。因FTIR装置可放置模具的空间较小，我设计了一套全新的模具。上方留孔是为了通线且保持空气流通。
 
-![image-20210310210159688](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310210159.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310210159.png)
 
 <center><font color="gray">图2 玻璃树脂纤维绝缘隔热样品池设计图
     </p></font></center>
@@ -46,7 +46,7 @@ mathjax: true
 
 **PID**（**P**roportional **I**ntegral **D**erivative）最早源自于船舶的自动操作系统，是迄今为止最简单有效的控制技术。<sup><a href="#ref7">7</a></sup> 约翰·美斯菲尔德说过：“我只要一艘船，和一颗为她掌舵的星。”但人眼是有极限的，俄裔美国工程师尼古拉斯·米诺尔斯基（Minorsky 1922）已用PID技术超越了当时最好的舵手，实现了$\pm1/6$°的船舶角度控制。<sup><a href="#ref8">8,9</a></sup> 模拟效果如图**3**所示。
 
-![image-20210310221544889](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310221544.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310221544.png)
 
 <center><font color="gray">图3 PID系统对扰动体系的稳定作用的模拟曲线</font></center>
 
@@ -79,7 +79,7 @@ $$
 
 调节P参数时，应调节P参数至出现震荡，再适当减小振幅。
 
-![image-20210310215640876](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215640.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215640.png)
 
 <center><font color="gray">图4 比例控件对系统的影响的模拟曲线
    </font></center>
@@ -95,11 +95,11 @@ $$
 
 实验时为开放环境，应适当增大I参数。
 
-![image-20210310215853612](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215853.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215853.png)
 
 <center><font color="gray">(5a) 误差无线性增长下的模拟曲线</font></center>
 
-![image-20210310215857377](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215857.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310215857.png)
 
 <center><font color="gray">(5b) 误差含线性增长项的模拟曲线</font></center>
 
@@ -115,7 +115,7 @@ $$
 
 实验室可能存在人员走动、移动仪器等干扰，需每次适当增减D参数。<sup><a href="#ref10">10</a></sup>
 
-![image-20210310220243148](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310220243.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310220243.png)
 
 <center><font color="gray">图6 微分控件对系统的影响的模拟曲线</font></center>
 
@@ -141,23 +141,23 @@ $$
 - 模块化：小型一体化，接口简单，高度模块化、集成化；
 - 廉价：主结构不超过千元。
 
-![image-20210310220803379](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310220803.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310220803.png)
 
 <center><font color="gray">图7 控温装置整体结构示意图</font></center>
 
 主机可视化操作界面如图**8 - 9**所示。装置外观及其内部结构如图**10**所示。网页可以通过图**7**中二维码扫码查看。
 
-![QQ图片20210305113848](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223152.jpeg)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223152.jpeg)
 
 <center><font color="gray">图8 面向调试的监控程序界面</font></center>
 
-![image-20210305114305041](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223234.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223234.png)
 
 <center><font color="gray">图9 面向使用的监控程序界面</font></center>
 
-![image-20210310223534546](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223534.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223534.png)
 
-![image-20210310223458640](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223458.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223458.png)
 
 <center><font color="gray">图10 装置外观及其内部结构</font></center>
 
@@ -165,13 +165,13 @@ $$
 
 为验证该装置控温效果，对新装置进行干烧控温测试，热电偶直接放于陶瓷加热片上，实验结果如图**11**所示。可以看出，P = 2，I = 5000，D = 100时控温效果最佳，温度控制精度为 $\pm$0.5 °C。实验时高频微扰不显著，增大D的效果不够明显；增大P会显著导致振荡范围加大，控制精度下降；增大I对控温能力的辅助最为明显，表明系统的主要误差是平均误差。
 
-![image-20210310223844766](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223844.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223844.png)
 
 <center><font color="gray">图11 干烧加热片温度控制曲线图</font></center>
 
 将加热片置于绝缘隔热样品池中，加热装有待测样品**B1**(4,4,4-trifluoro-1-(naphthalen-2-yl)butane-1,3-dione)及其Li配合物的CaF<sub>2</sub>片，实验结果如图**13**所示。考虑到样品在71-73 °C附近熔融可能会造成偶然误差，适当调大了最佳参数设置的微分控件参数。
 
-![image-20210310223957089](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223957.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310223957.png)
 
 <center><font color="gray">图12 对CaF2片中B1样品加热温度控制图</font></center>
 
@@ -187,25 +187,25 @@ $$
 
 首先，为预测2**A1 –** Li金属有机配合物可能的结构，用Gaussian16以M062x对其进行计算分析。**A1**及其配合物可能的结构如图**13**所示，其红外光谱特征峰计算结果如图**14**所示。二者均已乘校正系数。计算表明，若**A1**与Li形成了2**A1 –** Li金属有机配合物，应在1650 cm<sup>-1</sup>与1311 cm<sup>-1</sup>处表现出特征峰，并在1700 cm<sup>-1</sup>表现出显著的信号衰减。
 
- ![image-20210310225136003](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225136.png)![image-20210310225203781](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225203.png)
+ ![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225136.png)![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310225203.png)
 
 <center><font color="gray">图13 A1及A1-Li配合物可能的结构</font></center>
 
-   ![image-20210310230042401](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230042.png)
+   ![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230042.png)
 
-![image-20210310230110025](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230110.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230110.png)
 
 <center><font color="gray">图14 A1及A1-Li配合物红外光谱计算结果图</font></center>
 
 随后，为了进一步确认实际形成的2**A1**-Li的结构与计算结果一致，需要分析其FTIR光谱以寻找其特征峰。在实际实验中，经过反复筛选，最终确定了HCCl<sub>3</sub>是溶解**A1**及其金属有机配合物效果最好、背景干扰最少的溶剂，结果如图**15**所示。在1560  cm<sup>-1</sup>与1335 cm<sup>-1</sup>处，可以看到2**A1** – Li的特征峰，但信号较弱，不利于用二维红外进一步分析其转动特征。1620 cm<sup>-1</sup>无明显信号减弱，表明体系中仍主要以**A1**为主，形成配合物的**A1**较少。
 
-![image-20210310230344962](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230345.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230345.png)
 
 <center><font color="gray">图15 A1及2A1-Li配合物溶液FTIR光谱图</font></center>
 
 为进一步增强信号，采用新装置对样品池恒温加热。在加热至160 °C熔融**A1**后，如图**16**所示，2**A1**-Li金属有机配合物的信号显著增强。可以看出，1362 cm<sup>-1</sup>处有显著的新峰，1620 cm<sup>-1</sup>处的峰降低明显，1560 cm<sup>-1</sup>处的绝对信号增强虽不明显，但相对强度增强极其明显，证明了熔融能显著增强2**A1**-Li金属有机配合物的溶解度及其FTIR信号，验证了新装置的有效性。
 
-![image-20210310230605889](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230606.png)
+![](https://gitee.com/DF-Master/yidapicbed/raw/master/20210310230606.png)
 
 <center><font color="gray">图16 A1及2A1-Li配合物熔融FTIR光谱图</font></center>
 
