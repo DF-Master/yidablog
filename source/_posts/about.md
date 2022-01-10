@@ -24,11 +24,11 @@ Name： Yida Jiang
 
 Address： Peking University, Yiheyuan Road 5th, Beijing, China
 
-Github：[](https://github.com/DF-Master)
+Github：[https://github.com/DF-Master](https://github.com/DF-Master)
 
-Wechat: [](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
+Wechat: [https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
 
-QQ: [](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
+QQ: [https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
 
 E-mail: jiangyida@pku.edu.cn
 
@@ -36,7 +36,7 @@ E-mail: jiangyida@pku.edu.cn
 
 <!-- ![](https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg) -->
 
-<img src="https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg" alt="avatar" width="300" style="border-radius:10%"/>
+<img src="https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg" alt="Yida Jiang" width="300" style="border-radius:10%"/>
 
 
 
