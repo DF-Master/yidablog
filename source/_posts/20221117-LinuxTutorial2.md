@@ -1,6 +1,6 @@
 ---
 title: Tutorial:从零开始的Linux使用【2】
-data: 2022-11-17
+date: 2022-11-16
 tags:
 - rd
 categories:
