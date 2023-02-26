@@ -18,6 +18,7 @@ top: true
 
 > 你就是你自己的神。
 
+<!--more-->
 
 
 Name： Yida Jiang

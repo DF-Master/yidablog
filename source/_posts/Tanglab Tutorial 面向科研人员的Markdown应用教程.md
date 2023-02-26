@@ -18,6 +18,8 @@ tags:
 > **(2) a software tool, that converts the plain text formatting to others.**
 > 
 
+<!--more-->
+
 ## 为什么要学习Markdown？
 
 虽然你不一定能够感觉到，但是markdown已经存在于你的身边：

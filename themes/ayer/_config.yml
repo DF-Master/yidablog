@@ -8,7 +8,6 @@ menu:
   娱乐: /tags/娱乐/
   关于我: /2021/02/15/about/
 
-
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
 subtitle:
@@ -43,9 +42,9 @@ broadcast:
 
 # 文章配置
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
-excerpt_link: 阅读更多...
+excerpt_link: More...
 # 如果你嫌每篇文章手动加more标记比较麻烦，又不想在首页全文显示，可以把excerpt_all设置成true，这样首页只会显示文章归档
-excerpt_all: true
+excerpt_all: false
 
 # 是否开启代码复制按钮
 copy_btn: true
@@ -81,7 +80,7 @@ word_count:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: "请我喝杯奶茶吧~"
+reward_wording: '请我喝杯奶茶吧~'
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
 alipay: /img/alipay.png
 # 微信二维码图片地址
@@ -142,9 +141,9 @@ cnzz:
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
-google_analytics: ""
+google_analytics: ''
 # 百度统计
-baidu_analytics: ""
+baidu_analytics: ''
 
 # Mathjax数学公式
 mathjax: true
@@ -168,14 +167,14 @@ since: 2021
 # ICP备案信息尾部显示
 icp:
   enable: false
-  url: "http://www.beian.miit.gov.cn/" # 备案链接
-  text: "浙ICP备88888888" # 备案信息
+  url: 'http://www.beian.miit.gov.cn/' # 备案链接
+  text: '浙ICP备88888888' # 备案信息
 # 公安备案信息尾部显示
 gongan:
   enable: false
   img: /images/beian.png #公安备案图片
-  url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123" #公安备案链接
-  text: "浙公网安备01234567890123号" #公安备案信息
+  url: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123' #公安备案链接
+  text: '浙公网安备01234567890123号' #公安备案信息
 
 # 友情链接
 friends_link:
@@ -230,7 +229,7 @@ twikoo:
 minivaline:
   enable: false
   md: true
-  # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）  
+  # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）
   # emoticonUrl 等列表选项 可参考 https://github.com/MiniValine/hexo-next-minivaline
   # 下面是一个例子：
   backend: waline
