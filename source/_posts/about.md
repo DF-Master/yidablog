@@ -16,10 +16,9 @@ top: true
 
 
 
-> 你就是你自己的神。
+> 你就是你自己的神！
 
 <!--more-->
-
 
 Name： Yida Jiang
 
@@ -33,10 +32,6 @@ QQ: [https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png](https://img.imgdb.c
 
 E-mail: jiangyida@pku.edu.cn
 
-<!-- more -->
-
-
-<!-- ![](https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg) -->
 
 <img src="https://img.imgdb.cn/item/602a90123ffa7d37b3703c03.jpg" alt="Yida Jiang" width="300" style="border-radius:10%"/>
 
