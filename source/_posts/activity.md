@@ -1,5 +1,5 @@
 ---
-title: 【征友中】主要活动与兴趣爱好
+title: 主要活动与兴趣爱好
 date: 2023-08-10
 tags: []
 id: activity_jiangyd
