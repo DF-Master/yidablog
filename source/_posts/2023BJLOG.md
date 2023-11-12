@@ -49,7 +49,7 @@ tags:
 
 但大多数人也没有别的选择，它就是独一无二。在北京的独一无二的工作上签下独一无二的名字，这足以让伤疤和疾病成为光荣的奖牌。
 
-![正在施工的化院C区和冒着化学烟雾的B区通风口，我就这样度过了六年——这也是我的开题PPT封面](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG01.jpg)
+![正在施工的化院C区和冒着化学烟雾的B区通风口，我就这样度过了六年——这也是我的开题PPT封面](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG02.jpg)
 
 学校边随处可见的外卖小哥，或是在在避风处休息，或是车流疾驰的大街上闯红灯，或是一边看手机一边逆行。但即便如此，大家还是会共同驻足眺望北京的日落——就是这样偶尔的美好，会给人“再努力一段时间”的愿望。
 
@@ -61,7 +61,7 @@ tags:
 
 北京不需要眼泪。
 
-![日落时的五道口，繁忙的车流也慢了下来，大家都眺望着同一个角度](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG02.jpg)
+![日落时的五道口，繁忙的车流也慢了下来，大家都眺望着同一个角度](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG03.jpg)
 
 ---
 
@@ -79,7 +79,7 @@ tags:
 
 和父母打电话的时候，我仔细地阐述单身的理由：难以维持异地的关系，在北京的资源微不足道，没有稳定的未来，自己的兴趣爱好相对小众，户外活动又相对硬核……但父母问我回不回家的时候，我又只能沉默。
 
-![结冰后如镜的未名湖，如象牙塔的博雅塔](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG03.jpg)
+![结冰后如镜的未名湖，如象牙塔的博雅塔](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG04.jpg)
 
 
 
@@ -93,7 +93,7 @@ tags:
 
 但仍希望，能手握住一些切近的光芒啊。
 
-![未名湖的鸳鸯](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG04.jpg)
+![未名湖的鸳鸯](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG05.jpg)
 
 
 
@@ -107,26 +107,26 @@ tags:
 
 相比香山，我更喜欢植物园无人的小角落；相比奥体公园骑行环线，我更喜欢穿行城镇边缘的京密引水渠；相比故宫，我更喜欢和公园融为一体的古代建筑博物馆和大钟寺……北京并不缺少有趣和美好的地点，只是日月的光芒太过耀眼，以至于群星都显得黯淡。与其去分享那耀眼的普照，不如独享那缄默的闪光。
 
-![秋日的国家植物园，野餐，打牌](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG05.jpg)
+![秋日的国家植物园，野餐，打牌](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG06.jpg)
 
 
 
 植物园只要走几步就能摆脱人群和管理，找到一个安静的草坪野餐露营；京密引水渠上百公里的平坦河畔道路，暖风拂面寥廓无人，沿途还能穿行于市中心难得一见的乡村和田野；古代建筑博物馆有稀世的国宝，大钟寺有巍峨的永乐大钟，可以在稀疏的游客中安静地参观学习，也可以向闲来无事的管理员请教答疑，累了也能坐着撸会园子里的猫……相比坐办公室或者宿舍，出门几步就能度过一个充实的周末，我是欣然于能有如此多的休闲选项的。
 
-![京密引水渠，村口发呆的羊](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG06.jpg)
+![京密引水渠，村口发呆的羊](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG07.jpg)
 
 
 
 比起其他旅游城市，北京有着相当高的门槛——需要本地人推荐、介绍，或者有相关的背景，才能找到有趣又有益的地点，否则便是景点人挤人，昂贵且也不见得开心；或者是受制于交通的困难，在生活圈内找不到喜欢的场所。虽然这种“大城市病”也不见得独有，但高贵的“北京爷”终究是多些，纵使能获得融入时的喜悦，却对自己的“外乡人”身份更多了一份心寒。
 
-![有很厉害的乌克兰功勋艺术家表演的基辅罗斯餐厅，需要介绍才知道](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG07.jpg)
+![有很厉害的乌克兰功勋艺术家表演的基辅罗斯餐厅，需要介绍才知道](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG08.jpg)
 
 
 我于北京，终究是产生不了归属感。只是，对于“独一无二”的它，“无可替代”的它，我也慢慢理解、融入了。和解，放下期待，重望未来。
 
 “斯是陋室，惟吾德馨”。就算是日复一日的生活，我还是希望育躁动于日常，又归日常于浪漫。
 
-![本科的宿舍阳台，饮酒](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG08.jpg)
+![本科的宿舍阳台，饮酒](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG9.jpg)
 
 
 我是活在北京的自动人形。风疾沙厉，梦犹翱翔。
