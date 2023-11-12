@@ -33,9 +33,7 @@ tags:
 
 我成为独一无二的我，因为它是独一无二的它。
 
-![2023年秋，于慕田峪长城，远处的五个字是”忠于毛主席“](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG01.jpg)
-
-2023年秋，于慕田峪长城，远处的五个字是”忠于毛主席“
+![2023年秋，于慕田峪长城，远处的五个字是“忠于毛主席”](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG01.jpg)
 
 ---
 
