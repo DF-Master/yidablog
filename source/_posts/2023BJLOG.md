@@ -126,7 +126,7 @@ tags:
 
 “斯是陋室，惟吾德馨”。就算是日复一日的生活，我还是希望育躁动于日常，又归日常于浪漫。
 
-![本科的宿舍阳台，饮酒](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG9.jpg)
+![本科的宿舍阳台，饮酒](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202311/202311BJLOG/202311BJLOG09.jpg)
 
 
 我是活在北京的自动人形。风疾沙厉，梦犹翱翔。
