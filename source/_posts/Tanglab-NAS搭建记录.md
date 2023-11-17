@@ -3,8 +3,10 @@ title: Tanglab-NAS搭建记录
 date: 2022-07-05
 categories:
 - 杂记
+- 服务器
 tags:
 - 杂记
+- 服务器
 ---
 
 # Tanglab-NAS搭建记录
