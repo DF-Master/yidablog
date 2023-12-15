@@ -141,8 +141,6 @@ midjourney的图生图、动作衍生算是做的不错的，专向二次元形�
 
 ![乐](https://raw.githubusercontent.com/DF-Master/yidapicbed/main/2023/202312/202312MRSTICKS/202312MRSTICKS18.png)
 
-乐
-
 ---
 
 ## 尾声
