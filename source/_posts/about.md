@@ -26,9 +26,11 @@ Address： Peking University, Yiheyuan Road 5th, Beijing, China
 
 Github：[https://github.com/DF-Master](https://github.com/DF-Master)
 
-Wechat: [https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
+Wechat: [Wechat QR Code](https://img.imgdb.cn/item/602a8bea3ffa7d37b36ee8a8.png)
 
-QQ: [https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
+QQ: [QQ QR code](https://img.imgdb.cn/item/602a8cdc3ffa7d37b36f4256.png)
+
+Twitter: [https://twitter.com/DFMaster16](https://twitter.com/DFMaster16)
 
 E-mail: jiangyida@pku.edu.cn
 
