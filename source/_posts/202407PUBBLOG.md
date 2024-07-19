@@ -15,6 +15,7 @@ Diazirine, a functional group known for its three-membered ring that opens upon 
 In our recent paper, "Dissecting Diazirine Photo-reaction Mechanism for Protein Residue-Specific Cross-linking and Distance Mapping," published in Nature Communication, we delved into the intricate mechanisms of diazirine photo-reactions. Our goal was to accurately identify the photo-cross-linked protein residue for protein strucure mapping, which has long been accomplished with chemical cross-linkers.
 ![Figure 1: Schematic of the diazirine photolysis mechanism intermediates and preferences towards protein residues.](https://communities.springernature.com/cdn-cgi/image/metadata=copyright,fit=scale-down,format=auto,quality=95/https://images.zapnito.com/uploads/qH61iPr4RD2PKAbAnBJi_1.png)
 ---
+<!--more-->
  
 ### The Motivation: Overcoming Limitations of Existing Methods
 PXL using alkyl diazirines offers shortest, and hence, stringent distance constraints, making it a powerful tool for studying protein structures. However, the ambiguity in identifying cross-linked residues has limited its effectiveness compared to chemical cross-linking (CXL). We have built an innovative system that systematically modulates light intensity and irradiation time, allowing for a quantitative evaluation of diazirine photolysis and photo-reaction mechanisms.
@@ -30,7 +31,6 @@ Our experiments revealed that the diazo intermediate, rather than carbene, plays
 ### Application: Preferential Cross-Linking of Polar Residues
 Our analysis revealed that an ideal combination of irradiation time and power density, specifically at 100 mW/cm² for 2 minutes, allows the cross-linker to preferetially react with polar residues, including aspartic acid (Asp), glutamic acid (Glu), and tyrosine (Tyr) in proteins. This optimization is crucial for ensuring reproducibility and efficiency in cross-linking experiments. By analyzing the cross-linked products, we observed that the distances between the cross-linked residues are consistent with the known protein structures. Additionally, most cross-linked residues are relatively buried, due to the competive reaction from water.
 ![Figure 4: Preferences towards protein residues over irradiation time and power density.](https://communities.springernature.com/cdn-cgi/image/metadata=copyright,fit=scale-down,format=auto,quality=95/https://images.zapnito.com/uploads/HDZcQeNSTis953nxUyHS_4.png)
----
 ---
  
 ### Conclusion: A Step Forward in Protein Research
