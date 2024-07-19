@@ -12,7 +12,7 @@ tags:
 > Original link: https://communities.springernature.com/posts/protein-structure-mapping-unveiling-the-mechanism-of-diazirine-photo-reactions
 
 Diazirine, a functional group known for its three-membered ring that opens upon irradiation, has been widely used in photo-chemistry. Despite its broad application, the photo-reaction mechanisms of alkyl diazirines, especially their intermediate pathways and preferences towards protein residues, remained poorly understood. Addressing this knowledge gap was crucial for leveraging photo-cross-linking (PXL)'s full potential in protein structure analysis.
-In our recent paper, "Dissecting Diazirine Photo-reaction Mechanism for Protein Residue-Specific Cross-linking and Distance Mapping," published in Nature Communication, we delved into the intricate mechanisms of diazirine photo-reactions. Our goal was to accurately identify the photo-cross-linked protein residue for protein strucure mapping, which has long been accomplished with chemical cross-linkers.
+In our recent paper, "[Dissecting Diazirine Photo-reaction Mechanism for Protein Residue-Specific Cross-linking and Distance Mapping](https://doi.org/10.1038/s41467-024-50315-y)", published in Nature Communication, we delved into the intricate mechanisms of diazirine photo-reactions. Our goal was to accurately identify the photo-cross-linked protein residue for protein strucure mapping, which has long been accomplished with chemical cross-linkers.
 ![Figure 1: Schematic of the diazirine photolysis mechanism intermediates and preferences towards protein residues.](https://communities.springernature.com/cdn-cgi/image/metadata=copyright,fit=scale-down,format=auto,quality=95/https://images.zapnito.com/uploads/qH61iPr4RD2PKAbAnBJi_1.png)
 ---
 <!--more-->
