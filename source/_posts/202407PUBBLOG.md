@@ -1,7 +1,6 @@
 ---
 title:  Protein Structure Mapping:Unveiling the Mechanism of Diazirine Photo-reactions
-
-date: 2024-06-03
+date: 2024-07-19
 categories:
 - 杂记
 tags:
