@@ -1,7 +1,8 @@
 ---
 title: About Me
 date: 2024-09-10
-tags: []
+tags: 
+- about
 id: about
 no_word_count: true
 no_toc: true
