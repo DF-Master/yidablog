@@ -17,7 +17,7 @@ tags:
 ![教授白天骑100公里，爬完居庸关，晚上还有余力做两个小时学术报告](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2025/202505/2025MARTIN/2025MARTIN00.jpg)
 
 ***
-
+<!--more-->
 
 
 ## 序
