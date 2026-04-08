@@ -47,7 +47,7 @@ tags:
 
 四月上旬的千岛湖，是无限的花海。城里的行道树是樱花和海棠；紫藤萝野性地在乡间生长；在无人问津的小角落，雪白的绣球早已如粉如堆；湖畔的浅滩上，是一眼望不尽的野草和野花。更别说那满山遍野的油菜、花枝乱颤的迎春，招蜂引蝶，好不热闹！花海边上配有不同的站点：既有公交车站、自驾车的停车点，也有自行车、摩托车的驿站，房车的营地，甚至有直升机的停机坪。山坡上来回运输的无人机，和田里劳作的婆婆们相映成趣。即便在节假日，也不显拥挤：千岛湖实在是太大了，处处是风景，张张皆出片，根本不需要人挤人。而这一切，完全是免费的。
 
-![拖拉机，连你也要来徜徉花海吗？](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO05.jpg)
+![挖掘机，连你也要来徜徉花海吗？](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO05.jpg)
 
 ## ![谁家油菜花田有直升机停机坪啊？](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026QIANDAO/2026QIANDAO06.jpg)
 
