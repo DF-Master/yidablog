@@ -1,7 +1,8 @@
 ---
 title: 主要活动与兴趣爱好
 date: 2023-08-10
-tags: []
+tags:
+  - about
 id: activity_jiangyd
 no_word_count: true
 no_toc: true

@@ -1,7 +1,8 @@
 ---
 title: 个人简介
 date: 2022-01-01
-tags: []
+tags:
+  - about
 id: cv_jiangyd
 no_word_count: true
 no_toc: true
