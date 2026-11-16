@@ -10,7 +10,7 @@ tags:
 
 > 灭烛见真火，忘剑得神兵。
 
-![第一次学术演讲，第一次正式登台，第一次面见群英，感受到的却是辉煌中的迷茫](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI01.jpg)
+![第一次学术演讲，第一次正式登台，第一次面见群英，感受到的却是辉煌中的迷茫](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI00.jpg)
 
 ---
 
@@ -32,7 +32,7 @@ tags:
 
 四次工业革命，最后留给人类的，还是“食色，性也”。
 
-![别的不说，上等灵境的点心确实好](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI02.jpg)
+![别的不说，上等灵境的点心确实好](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI01.jpg)
 
 ---
 
@@ -46,7 +46,7 @@ tags:
 
 鲜衣怒马，年少轻狂，此时此刻，此情此景。
 
-![登台](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI03.jpg)
+![登台](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI02.jpg)
 
 几位老师，是我慕名已久的。文采斐然，才华卓著，业界久仰。我问一位以写码不懈闻名的老师，是否还坚持他那每日编写的习惯；他却说，如今只剩每日 AI 了。记忆中的白月光，在现实前一泻千里。
 
@@ -60,7 +60,7 @@ tags:
 
 独立思考，独立实践，竟然如此奢侈。
 
-![贺老师身上的“人味”，曾经令人生气，如今反显可贵](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI04.jpg)
+![贺老师身上的“人味”，曾经令人生气，如今反显可贵](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI03.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ AI 资源大多不再稀缺。只要不追求最尖端的模型和性能，国�
 
 两年前，我信心满满；如今所有人又再次回到同一起跑线上，才发现根本没有时间供人躺平。
 
-![十月自驾去了一趟张家口。马术也是曾经的“基本功”，今天又有多少人练习呢](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI05.jpg)
+![十月自驾去了一趟张家口。马术也是曾经的“基本功”，今天又有多少人练习呢](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI04.jpg)
 
 ---
 
@@ -98,4 +98,4 @@ AI 资源大多不再稀缺。只要不追求最尖端的模型和性能，国�
 
 翻看日历，似乎无暇休息。这样也好。
 
-![跑团七年，终于有了自己的游戏间，畅快畅快](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI06.jpg)
+![跑团七年，终于有了自己的游戏间，畅快畅快](https://raw.githubusercontent.com/DF-Master/yidapicbed/refs/heads/main/2026/2026CNCPAI/2026CNCPAI05.jpg)
